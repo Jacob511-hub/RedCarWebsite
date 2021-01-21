@@ -1,12 +1,19 @@
-section {
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.fast {
     height: 1080px;
     width: 1920px;
     background-image: url('hero.jpg');
     background-repeat: no-repeat;  
     background-size: cover;
+    background-position: center;
     margin: 0; 
     padding: 0;
   }
-  h1 {
-    text-align:center
+  .title {
+    text-align: center;
    }
