@@ -4,7 +4,15 @@ body {
   border: 0;
 }
 
-.fast {
+#fast {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fast-car {
     height: 1080px;
     width: 1920px;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('hero.jpg');
@@ -16,9 +24,14 @@ body {
     justify-content: center;
     margin: 0; 
     padding: 0;
+    top: 0px;
+    right: 0px;
   }
   .title {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0; 
     padding: 0;
     color: #fff;
