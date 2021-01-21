@@ -1,6 +1,12 @@
-body {
+section {
+    height: 1080px;
+    width: 1920px;
     background-image: url('hero.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-repeat: no-repeat;  
     background-size: cover;
+    margin: 0; 
+    padding: 0;
   }
+  h1 {
+    text-align:center
+   }
