@@ -19,6 +19,13 @@ body {
   background-color: rgb(26, 26, 26);
 }
 
+#numbers {
+  padding-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: red;
+}
+
 #fast-car {
     height: 1080px;
     width: 1920px;
@@ -46,11 +53,7 @@ body {
     font-size: 4vw;
    }
 
-  .heading {
-    color: white;
-  }
-
-  .lorem {
+  .love-red-cars {
     color: white;
   }
 
