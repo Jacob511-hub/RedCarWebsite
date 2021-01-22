@@ -12,6 +12,13 @@ body {
   align-items: center;
 }
 
+#red-cars {
+  padding-top: 200px;
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #fast-car {
     height: 1080px;
     width: 1920px;
@@ -36,4 +43,7 @@ body {
     padding: 0;
     color: #fff;
     font-size: 4vw;
+   }
+   #car-mic {
+    background-image: url('Video-marketing-strategy-car-dealers1.jpg')
    }
