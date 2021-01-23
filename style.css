@@ -58,9 +58,36 @@ body {
   }
 
    #car-mic {
-    
     margin: 0; 
     padding: 0;
     top: 0px;
     right: 0px;
+   }
+
+   #trophy {
+    width: 5vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #wheel {
+    width: 5vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #seat {
+    width: 5vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #brush {
+    width: 5vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
    }
