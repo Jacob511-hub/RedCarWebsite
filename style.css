@@ -53,41 +53,67 @@ body {
     font-size: 4vw;
    }
 
-  .love-red-cars {
+   .container {
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+  .love-red-cars {
+    font-size: 30px;
+    padding: 100px;
   }
 
    #car-mic {
     margin: 0; 
-    padding: 0;
+    padding: 100px;
     top: 0px;
     right: 0px;
+    width: 40vw;
+    height: auto;
+   }
+
+   .trophy-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .wheel-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .seat-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .brush-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
 
    #trophy {
     width: 5vw;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
    }
 
    #wheel {
     width: 5vw;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
    }
 
    #seat {
     width: 5vw;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
    }
 
    #brush {
     width: 5vw;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
    }
