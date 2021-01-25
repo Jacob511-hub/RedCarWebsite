@@ -44,12 +44,9 @@ body {
 
   .title {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0; 
     padding: 0;
-    color: #fff;
+    color: white;
     font-size: 4vw;
    }
 
