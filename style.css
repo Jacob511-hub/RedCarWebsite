@@ -101,6 +101,8 @@ body {
 
 .grid-container {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     'header header right'
     'left center right'
@@ -111,34 +113,38 @@ body {
 }
 
 .front {
+  background-image: url('front.jpg');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
   grid-area: header;
-  width: 90%;
-  height: auto;
 }
 
 .steering1 {
+  background-image: url('steering1.jpg');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
   grid-area: right;
-  width: 90%;
-  height: auto;
 }
 
 .f1 {
+  background-image: url('f1.jpg');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
   grid-area: left;
-  width: 90%;
-  height: auto;
 }
 
 .back {
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
   grid-area: footer;
-  width: 90%;
-  height: auto;
 }
 .scuderia {
+  font-size: 10vh;
   grid-area: center;
   text-align: center;
-  width: 30vh;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
