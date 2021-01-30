@@ -28,61 +28,117 @@ body {
   background-color: rgb(214, 0, 0);
 }
 
+#about-the-red {
+  background-color: rgb(26, 26, 26);
+}
+
 #fast-car {
-    display: flex;
-    justify-content: center;
-    margin: 0; 
-    padding: 0;
-    top: 0px;
-    right: 0px;
-  }
+  display: flex;
+  justify-content: center;
+  margin: 0; 
+  padding: 0;
+  top: 0px;
+  right: 0px;
+}
 
-  .title {
-    text-align: center;
-    margin: 0; 
-    padding: 0;
-    color: white;
-    font-size: 3vw;
-   }
+.title {
+  text-align: center;
+  margin: 0; 
+  padding: 0;
+  color: white;
+  font-size: 3vw;
+}
 
-   .read {
-    font-size: 2vw;
-   }
+.read {
+  font-size: 2vw;
+}
 
-   .container {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
+/* Standard section container for alignment and text color */
 
-   .spacing {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-   }
+.container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .love-red-cars {
-    font-size: 30px;
-    padding: 100px;
-  }
+.spacing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* Use this class for text */
+
+.text {
+  font-size: 30px;
+  padding: 100px;
+}
 
 /* I'm an example comment */
 
-   #car-mic {
-    margin: 0; 
-    padding: 100px;
-    top: 0px;
-    right: 0px;
-    width: 40vw;
-    height: auto;
-   }
+#car-mic {
+  margin: 0; 
+  padding: 100px;
+  top: 0px;
+  right: 0px;
+  width: 40vw;
+  height: auto;
+}
 
-   .icon {
-    width: 5vw;
-    height: auto;
-   }
+.icon {
+  width: 5vw;
+  height: auto;
+}
+
+.about-red-container {
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header right'
+    'left center right'
+    'left footer footer';
+  grid-gap: 20px;
+  padding: 100px;
+  padding-top: 0px;
+}
+
+.front {
+  grid-area: header;
+  width: 90%;
+  height: auto;
+}
+
+.steering1 {
+  grid-area: right;
+  width: 90%;
+  height: auto;
+}
+
+.f1 {
+  grid-area: left;
+  width: 90%;
+  height: auto;
+}
+
+.back {
+  grid-area: footer;
+  width: 90%;
+  height: auto;
+}
+.scuderia {
+  grid-area: center;
+  text-align: center;
+  width: 30vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
