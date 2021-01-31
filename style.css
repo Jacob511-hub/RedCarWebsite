@@ -39,6 +39,12 @@ body {
   text-align: center;
 }
 
+#interesting {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(26, 26, 26);
+}
+
 #fast-car {
   display: flex;
   justify-content: center;
@@ -86,6 +92,11 @@ body {
   padding: 100px;
 }
 
+.text-small {
+  font-size: 15px;
+  padding: 30px;
+}
+
 #car-mic {
   margin: 0; 
   padding: 100px;
@@ -100,7 +111,7 @@ body {
   height: auto;
 }
 
-.about-red-container {
+.container-2 {
   color: white;
 }
 
