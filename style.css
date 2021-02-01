@@ -95,6 +95,7 @@ body {
 .text-small {
   font-size: 15px;
   padding: 30px;
+  background-color: rgb(54, 54, 54);
 }
 
 #car-mic {
@@ -163,4 +164,35 @@ body {
   font-size: 10vh;
   grid-area: center;
   text-align: center;
+}
+
+.column-container {
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+
+.column-image {
+  width: 100%
+}
+
+.left-column {
+  position: relative;
+}
+
+.middle-column {
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.right-column {
+  position: relative;
+}
+
+.image-text {
+  background-color: rgb(214, 0, 0);
+  position: absolute;
+  top:240px;
+  left: 16px;
+  padding: 5px;
 }
