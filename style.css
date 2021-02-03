@@ -4,6 +4,14 @@ body {
   border: 0;
 }
 
+/* Changes placeholder text in the email field to white */
+
+::placeholder {
+  color: white ;
+}
+
+/* Section 1 background image */
+
 #fast {
   height: 100vh;
   position: relative;
@@ -16,34 +24,7 @@ body {
   background-position: center;
 }
 
-#red-cars {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(26, 26, 26);
-}
-
-#numbers {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(214, 0, 0);
-}
-
-#about-the-red {
-  background-color: rgb(26, 26, 26);
-}
-
-#quote {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(214, 0, 0);
-  text-align: center;
-}
-
-#interesting {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(26, 26, 26);
-}
+/* Title block */
 
 #fast-car {
   display: flex;
@@ -54,6 +35,56 @@ body {
   right: 0px;
 }
 
+/* Margins and background colour of section 2 */
+
+#red-cars {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(26, 26, 26);
+}
+
+/* Margins and background colour of section 3 */
+
+#numbers {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(214, 0, 0);
+}
+
+/* Background colour of section 4 */
+
+#about-the-red {
+  background-color: rgb(26, 26, 26);
+}
+
+/* Margins and background colour of section 5 */
+
+#quote {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(214, 0, 0);
+  text-align: center;
+}
+
+/* Margins and background colour of section 6 */
+
+#interesting {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(26, 26, 26);
+}
+
+/* Alignment and background colur of section 7 */
+
+#email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 26, 26);
+}
+
+/* Text alignment, colour, and size of the title */
+
 .title {
   text-align: center;
   margin: 0; 
@@ -62,11 +93,13 @@ body {
   font-size: 3vw;
 }
 
+/* Font size of "Read more" text */
+
 .read {
   font-size: 2vw;
 }
 
-/* Standard section container for alignment and text color */
+/* Standard div container for alignment and text color */
 
 .container {
   color: white;
@@ -74,6 +107,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* Used for spacing the icons in section 3 */
 
 .spacing {
   display: flex;
@@ -85,18 +120,22 @@ body {
   padding-bottom: 10%;
 }
 
-/* Use this class for text */
+/* Standard text class */
 
 .text {
   font-size: 30px;
   padding: 100px;
 }
 
+/* Smaller text class used in section 6 */
+
 .text-small {
   font-size: 15px;
   padding: 30px;
   background-color: rgb(54, 54, 54);
 }
+
+/* Dimensions of the car microphone image in section 2 */
 
 #car-mic {
   margin: 0; 
@@ -107,14 +146,20 @@ body {
   height: auto;
 }
 
+/* Dimensions of the 4 icons in section 3 */
+
 .icon {
   width: 5vw;
   height: auto;
 }
 
+/* Container that makes white text without alignment */
+
 .container-2 {
   color: white;
 }
+
+/* Creates grid of 4 images and a text box for section 4 */
 
 .grid-container {
   display: grid;
@@ -129,6 +174,8 @@ body {
   padding-top: 0px;
 }
 
+/* Adds image to grid header */
+
 .front {
   background-image: url('front.jpg');
   background-repeat: no-repeat;  
@@ -136,6 +183,8 @@ body {
   background-position: center;
   grid-area: header;
 }
+
+/* Adds image to right side of grid */
 
 .steering1 {
   background-image: url('steering1.jpg');
@@ -145,6 +194,8 @@ body {
   grid-area: right;
 }
 
+/* Adds image to left side of grid */
+
 .f1 {
   background-image: url('f1.jpg');
   background-repeat: no-repeat;  
@@ -153,6 +204,8 @@ body {
   grid-area: left;
 }
 
+/* Adds image to grid footer */
+
 .back {
   background-image: url('back.jpg');
   background-repeat: no-repeat;  
@@ -160,16 +213,23 @@ body {
   background-position: center;
   grid-area: footer;
 }
+
+/* Adds text to center of grid */
+
 .scuderia {
   font-size: 10vh;
   grid-area: center;
   text-align: center;
 }
 
+/* Creates margins on columns in section 6 */
+
 .column-container {
   margin-left: 15vh;
   margin-right: 15vh;
 }
+
+/* Adds image to left column */
 
 .column-image1 {
   background-image: url('engine.jpg');
@@ -179,6 +239,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* Adds image to middle column */
+
 .column-image2 {
   background-image: url('steering2.jpg');
   width: 100%;
@@ -187,6 +250,8 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+/* Adds image to right column */
 
 .column-image3 {
   background-image: url('wheel.jpg');
@@ -197,9 +262,13 @@ body {
   background-position: center;
 }
 
+/* Adjusts position of left column */
+
 .left-column {
   position: relative;
 }
+
+/* Adjusts postion and spaces out middle column */
 
 .middle-column {
   position: relative;
@@ -207,9 +276,13 @@ body {
   margin-right: 25px;
 }
 
+/* Adjusts position of right column */
+
 .right-column {
   position: relative;
 }
+
+/* The red tags that go on the bottom-left corner of the 3 column images */
 
 .image-text {
   background-color: rgb(214, 0, 0);
@@ -217,4 +290,27 @@ body {
   top:180px;
   left: 16px;
   padding: 5px;
+}
+
+/* Email box */
+
+.email-input {
+  width: 50%;
+  float: right;
+  background-color: rgb(54, 54, 54);
+  margin-right: 150px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*Input fields for email box*/
+
+.input-field {
+  background-color:grey;
+  border-color: grey;
+  color: white;
+  width: 75%;
+  height: 50px;
+  margin-top: 25px;
 }
