@@ -83,6 +83,13 @@ body {
   background-color: rgb(26, 26, 26);
 }
 
+/* Background colour of the footer section 8 */
+
+#footer {
+  background-color: rgb(54, 54, 54);
+}
+
+
 /* Text alignment, colour, and size of the title */
 
 .title {
@@ -159,6 +166,12 @@ body {
   color: white;
 }
 
+.container-3 {
+  color: white;
+  margin-right: 70vw;
+  font-size: 15px;
+}
+
 /* Creates grid of 4 images and a text box for section 4 */
 
 .grid-container {
@@ -217,7 +230,7 @@ body {
 /* Adds text to center of grid */
 
 .scuderia {
-  font-size: 10vh;
+  font-size: 5vw;
   grid-area: center;
   text-align: center;
 }
@@ -225,8 +238,8 @@ body {
 /* Creates margins on columns in section 6 */
 
 .column-container {
-  margin-left: 15vh;
-  margin-right: 15vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 /* Adds image to left column */
@@ -238,6 +251,7 @@ body {
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 /* Adds image to middle column */
@@ -249,6 +263,7 @@ body {
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 /* Adds image to right column */
@@ -260,6 +275,7 @@ body {
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 /* Adjusts position of left column */
@@ -287,7 +303,7 @@ body {
 .image-text {
   background-color: rgb(214, 0, 0);
   position: absolute;
-  top:180px;
+  bottom: 16px;
   left: 16px;
   padding: 5px;
 }
