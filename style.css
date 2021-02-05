@@ -149,6 +149,7 @@ body {
 
 #car-mic {
   margin-right: 10vw;
+  margin-bottom: 50px;
   width: 40%;
   height: 100%;
 }
@@ -189,7 +190,7 @@ body {
     'left center right'
     'left footer footer';
   grid-gap: 20px;
-  padding: 100px;
+  padding: 10vw;
   padding-top: 0px;
 }
 
@@ -335,4 +336,15 @@ body {
   width: 75%;
   height: 50px;
   margin-top: 25px;
+}
+
+/* For mobile phones */
+
+@media screen and (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
 }
