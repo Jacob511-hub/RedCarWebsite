@@ -130,8 +130,11 @@ body {
 /* Standard text class */
 
 .text {
-  font-size: 30px;
-  padding: 100px;
+  font-size: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 /* Smaller text class used in section 6 */
@@ -145,12 +148,9 @@ body {
 /* Dimensions of the car microphone image in section 2 */
 
 #car-mic {
-  margin: 0; 
-  padding: 100px;
-  top: 0px;
-  right: 0px;
-  width: 40vw;
-  height: auto;
+  margin-right: 10vw;
+  width: 40%;
+  height: 100%;
 }
 
 /* Dimensions of the 4 icons in section 3 */
@@ -158,6 +158,12 @@ body {
 .icon {
   width: 5vw;
   height: auto;
+}
+
+.icon-2 {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
 }
 
 /* Container that makes white text without alignment */
