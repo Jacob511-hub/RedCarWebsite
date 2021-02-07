@@ -127,6 +127,26 @@ body {
   padding-bottom: 10%;
 }
 
+.spacing-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.spacing-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 0%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 /* Standard text class */
 
 .text {
@@ -157,7 +177,7 @@ body {
 /* Dimensions of the 4 icons in section 3 */
 
 .icon {
-  width: 5vw;
+  width: 50px;
   height: auto;
 }
 
@@ -289,6 +309,7 @@ body {
 
 .left-column {
   position: relative;
+  padding-bottom: 50px;
 }
 
 /* Adjusts postion and spaces out middle column */
@@ -297,12 +318,14 @@ body {
   position: relative;
   margin-left: 25px;
   margin-right: 25px;
+  padding-bottom: 50px;
 }
 
 /* Adjusts position of right column */
 
 .right-column {
   position: relative;
+  padding-bottom: 50px;
 }
 
 /* The red tags that go on the bottom-left corner of the 3 column images */
@@ -340,11 +363,48 @@ body {
 
 /* For mobile phones */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
+  }
+
+  .middle-column {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .spacing {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .spacing-2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .spacing-3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .text {
+    font-size: large;
+  }
+
+  #car-mic {
+    margin-right: 0vw;
+    width: 60%;
+  }
+
+  .title {
+    font-size: 5vw;
+  }
+  
+  .read {
+    font-size: 3vw;
   }
 }
