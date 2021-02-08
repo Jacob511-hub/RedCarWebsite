@@ -77,9 +77,6 @@ body {
 /* Alignment and background colur of section 7 */
 
 #email {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(26, 26, 26);
 }
 
@@ -197,6 +194,12 @@ body {
   color: white;
   margin-right: 70vw;
   font-size: 15px;
+}
+
+.container-4 {
+  color: white;
+  display: flex;
+  align-items: center;
 }
 
 /* Creates grid of 4 images and a text box for section 4 */
@@ -341,10 +344,12 @@ body {
 /* Email box */
 
 .email-input {
-  width: 50%;
+  width: 400px;
   float: right;
   background-color: rgb(54, 54, 54);
-  margin-right: 150px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
   padding-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -356,10 +361,21 @@ body {
   background-color:grey;
   border-color: grey;
   color: white;
-  width: 75%;
+  width: 350px;
   height: 50px;
   margin-top: 25px;
 }
+
+.input-field-name {
+  background-color:grey;
+  border-color: grey;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+  margin-right: 40px;
+}
+
 
 /* For mobile phones */
 
@@ -406,5 +422,23 @@ body {
   
   .read {
     font-size: 3vw;
+  }
+
+  .email-input {
+    width: 75vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    padding-left: 10vw;
+  }
+
+  .input-field {
+    width: 60vw;
+    height: 5vh;
+  }
+  
+  .input-field-name {
+    width: 25vw;
+    height: 5vh;
+    margin-right: 9vw;
   }
 }
