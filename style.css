@@ -121,6 +121,8 @@ body {
   padding: 5%;
 }
 
+/* Spacing class for leftmost icon without padding on the sides */
+
 .spacing-2 {
   display: flex;
   align-items: center;
@@ -130,6 +132,8 @@ body {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+/* Spacing for rightmost icon without padding on the right */
 
 .spacing-3 {
   display: flex;
@@ -159,6 +163,8 @@ body {
   background-color: rgb(54, 54, 54);
 }
 
+/* Bigger text class used in section 5 */
+
 .text-big {
   font-size: x-large;
   padding: 50px;
@@ -183,6 +189,8 @@ body {
   height: auto;
 }
 
+/* Dimensions of github and linkedin icons in footer */
+
 .icon-2 {
   width: 50px;
   height: auto;
@@ -195,13 +203,9 @@ body {
   color: white;
 }
 
-.container-3 {
-  color: white;
-  margin-right: 70vw;
-  font-size: 15px;
-}
+/* Container without justify content */
 
-.container-4 {
+.container-3 {
   color: white;
   display: flex;
   align-items: center;
@@ -370,6 +374,8 @@ body {
   margin-top: 25px;
 }
 
+/* Smaller input fields for the first and last names */
+
 .input-field-name {
   background-color:grey;
   border-color: grey;
@@ -379,6 +385,8 @@ body {
   margin-top: 25px;
   margin-right: 40px;
 }
+
+/* Size and colour of the submit button */
 
 #formButton {
   background-color: rgb(214, 0, 0);
@@ -390,9 +398,10 @@ body {
   margin-top: 20px;
 }
 
-/* For mobile phones */
+/* For screens less than 850px wide */
 
 @media screen and (max-width: 850px) {
+
   .container {
     display: flex;
     flex-direction: column;
@@ -405,15 +414,21 @@ body {
     margin-right: 0px;
   }
 
+  /* Text padding size responsive to screen width */
+
   .text {
     padding-top: 5vh;
     padding-bottom: 5vh;
   }
 
+  /* Larger text made smaller to fit within section */
+
   .text-big {
     font-size: large;
     padding: 5%
   }
+
+  /* Rightside margin removed to center image */
 
   #car-mic {
     margin-right: 0vw;
