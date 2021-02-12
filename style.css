@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('hero.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/hero.jpg');
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
@@ -195,6 +195,11 @@ body {
   width: 50px;
   height: auto;
   margin-right: 20px;
+  transition: transform 0.5s;
+}
+
+.icon-2:hover {
+  transform: scale(1.1);
 }
 
 /* Container that makes white text without alignment */
@@ -229,7 +234,7 @@ body {
 /* Adds image to grid header */
 
 .front {
-  background-image: url('front.jpg');
+  background-image: url('img/front.jpg');
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
@@ -239,7 +244,7 @@ body {
 /* Adds image to right side of grid */
 
 .steering1 {
-  background-image: url('steering1.jpg');
+  background-image: url('img/steering1.jpg');
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
@@ -249,7 +254,7 @@ body {
 /* Adds image to left side of grid */
 
 .f1 {
-  background-image: url('f1.jpg');
+  background-image: url('img/f1.jpg');
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
@@ -259,7 +264,7 @@ body {
 /* Adds image to grid footer */
 
 .back {
-  background-image: url('back.jpg');
+  background-image: url('img/back.jpg');
   background-repeat: no-repeat;  
   background-size: cover;
   background-position: center;
@@ -284,7 +289,7 @@ body {
 /* Adds image to left column */
 
 .column-image1 {
-  background-image: url('engine.jpg');
+  background-image: url('img/engine.jpg');
   width: 100%;
   height: 30vh;
   background-repeat: no-repeat;  
@@ -296,7 +301,7 @@ body {
 /* Adds image to middle column */
 
 .column-image2 {
-  background-image: url('steering2.jpg');
+  background-image: url('img/steering2.jpg');
   width: 100%;
   height: 30vh;
   background-repeat: no-repeat;  
@@ -308,7 +313,7 @@ body {
 /* Adds image to right column */
 
 .column-image3 {
-  background-image: url('wheel.jpg');
+  background-image: url('img/wheel.jpg');
   width: 100%;
   height: 30vh;
   background-repeat: no-repeat;  
@@ -396,6 +401,12 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+#formButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
 }
 
 /* For screens less than 850px wide */
@@ -409,9 +420,19 @@ body {
     color: white;
   }
 
+  .left-column {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
   .middle-column {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .right-column {
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 
   /* Text padding size responsive to screen width */
@@ -431,15 +452,16 @@ body {
   /* Rightside margin removed to center image */
 
   #car-mic {
-    margin-right: 0vw;
-    width: 60%;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 80%;
   }
 
   .email-input {
-    width: 75vw;
+    width: 70vw;
     margin-right: 2vw;
     margin-left: 2vw;
-    padding-left: 10vw;
+    padding-left: 8vw;
   }
 
   .input-field {
@@ -454,21 +476,29 @@ body {
   }
 
   .spacing {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0%;
-    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+    line-height: 10px;
   }
   
   .spacing-2 {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0%;
     padding-top: 5%;
-    text-align: center;
+    padding-bottom: 5%;
+    text-align: left;
+    line-height: 10px;
   }
   
   .spacing-3 {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0%;
-    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+    line-height: 10px;
   }
 }
