@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -99,8 +103,20 @@ body {
 
 /* Font size of "Read more" text */
 
-.read {
+#read {
   font-size: x-large;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  transition: transform 0.5s;
+}
+
+#read:hover {
+  transform: scale(1.1);
 }
 
 /* Standard div container for alignment and text color */
@@ -196,6 +212,7 @@ body {
   height: auto;
   margin-right: 20px;
   transition: transform 0.5s;
+  cursor:pointer;
 }
 
 .icon-2:hover {
@@ -402,6 +419,7 @@ body {
   padding-bottom: 10px;
   margin-top: 20px;
   transition: transform 0.5s, box-shadow 0.5s;
+  cursor:pointer;
 }
 
 #formButton:hover {
