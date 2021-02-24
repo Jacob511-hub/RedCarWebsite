@@ -168,7 +168,7 @@ body {
 .text-2 {
   font-size: 2em;
   padding-left: 5vw;
-  padding-right: 10vw;
+  padding-right: 5vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
@@ -228,7 +228,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 2000px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -237,7 +237,7 @@ body {
 
 .container-2 {
   color: white;
-  max-width: 2000px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -248,7 +248,7 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  max-width: 2000px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -259,7 +259,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  max-width: 2000px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -271,7 +271,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 2000px;
+  max-width: 1500px;
   margin-left: auto;
 }
 
@@ -289,7 +289,7 @@ body {
   padding: 5vw;
   padding-top: 0vw;
   padding-bottom: 10vw;
-  max-height: 1500px;
+  max-height: 1000px;
 }
 
 /* Adds image to grid header */
@@ -338,6 +338,12 @@ body {
   font-size: 5vw;
   grid-area: center;
   text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+  .scuderia {
+    font-size: 7em;
+  }
 }
 
 /* Creates margins on columns in section 6 */
@@ -526,6 +532,8 @@ body {
   .text {
     padding-top: 5vh;
     padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   .text-2 {
