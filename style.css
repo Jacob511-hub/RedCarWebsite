@@ -13,6 +13,7 @@ body {
 
 ::placeholder {
   color: white ;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Section 1 background image */
@@ -170,8 +171,6 @@ body {
   font-size: 2em;
   padding-left: 5vw;
   padding-right: 5vw;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
 }
 
 /* Text class with smaller left side padding for better alignment */
@@ -180,7 +179,6 @@ body {
   font-size: 2em;
   padding-left: 5vw;
   padding-right: 5vw;
-  padding-top: 5vh;
   padding-bottom: 5vh;
 }
 
@@ -194,9 +192,7 @@ body {
 
 .text-footer {
   font-size: 1em;
-  padding: 5vw;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding: 0 5vw;
   background-color: rgb(54, 54, 54);
 }
 
@@ -204,7 +200,6 @@ body {
 
 .text-big {
   font-size: x-large;
-  padding: 50px;
   padding-right: 200px;
   padding-left: 200px;
 }
@@ -251,6 +246,7 @@ body {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px 0;
 }
 
 /* Container that makes white text without alignment */
@@ -260,6 +256,7 @@ body {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px 0;
 }
 
 /* Container without justify content */
@@ -282,6 +279,7 @@ body {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 50px;
 }
 
 /* Container without right margin */
@@ -474,7 +472,7 @@ body {
   background-color:rgb(75, 75, 75);
   border-color: rgb(75, 75, 75);
   color: white;
-  line-height: 30px;
+  line-height: 40px;
   width: 550px;
   height: 200px;
   margin-top: 25px;
@@ -566,8 +564,6 @@ body {
   /* Text padding size responsive to screen width */
 
   .text {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     padding-left: 10vw;
     padding-right: 10vw;
   }
@@ -586,7 +582,8 @@ body {
 
   .text-big {
     font-size: large;
-    padding: 5%
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   /* Rightside margin removed to center image */
